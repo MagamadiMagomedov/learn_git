@@ -1,0 +1,9 @@
+ String line = "Hello str my str friend str world";
+        Pattern pattern = Pattern.compile("str");
+        Matcher matcher = pattern.matcher(line);
+
+        int count = 0;
+
+        while (matcher.find()) {
+            count++;
+        }
