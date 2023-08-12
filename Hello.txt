@@ -1,1 +1,2 @@
 Hello from new mate
+Hello from command
